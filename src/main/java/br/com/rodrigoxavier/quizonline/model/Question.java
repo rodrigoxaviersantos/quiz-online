@@ -3,20 +3,20 @@ package br.com.rodrigoxavier.quizonline.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "quizzes")
-public class Quiz {
+@Table(name = "questions")
+public class Question {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
+    private String text;
 
-    public Quiz() {
+    public Question() {
     }
 
-    public Quiz(Long id, String name) {
+    public Question(Long id, String text) {
         this.id = id;
-        this.name = name;
+        this.text = text;
     }
 
     public Long getId() {
@@ -27,21 +27,19 @@ public class Quiz {
         this.id = id;
     }
 
-    public String getname() {
-        return name;
+    public String gettext() {
+        return text;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void settext(String text) {
+        this.text = text;
     }
 
     @Override
     public String toString() {
         return "Quiz{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
+                ", text='" + text + '\'' +
                 '}';
     }
-
-
 }
