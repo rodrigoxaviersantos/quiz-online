@@ -1,31 +1,26 @@
 package br.com.rodrigoxavier.quizonline.model;
 
 import jakarta.persistence.*;
-import java.util.List;
 
 @Entity
-@Table(name = "questions")
-public class Question {
-
+@Table(name = "answers")
+public class Answer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String text;
-
-    @Column(length = 3)
-    private String alternatives;
+    private boolean correct;
     @ManyToOne
-    @JoinColumn(name = "quiz_id")
-    private Quiz quiz;
-    @OneToMany(mappedBy = "question", cascade = CascadeType.ALL)
-    private List<Answer> answers;
+    @JoinColumn(name = "question_id")
+    private Question question;
 
-    public Question() {
+    public Answer() {
     }
 
-    public Question(Long id, String text) {
+    public Answer(Long id, String text, boolean correct) {
         this.id = id;
         this.text = text;
+        this.correct = correct;
     }
 
     public Long getId() {
@@ -44,20 +39,20 @@ public class Question {
         this.text = text;
     }
 
-    public String getAlternatives() {
-        return alternatives;
+    public boolean isCorrect() {
+        return correct;
     }
 
-    public void setAlternatives(String alternatives) {
-        this.alternatives = alternatives;
+    public void setCorrect(boolean correct) {
+        this.correct = correct;
     }
 
     @Override
     public String toString() {
-        return "Quiz{" +
+        return "Answer{" +
                 "id=" + id +
                 ", text='" + text + '\'' +
+                ", correct=" + correct +
                 '}';
     }
-
 }

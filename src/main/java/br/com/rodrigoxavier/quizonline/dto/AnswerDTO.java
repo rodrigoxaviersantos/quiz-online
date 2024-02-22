@@ -1,9 +1,9 @@
 package br.com.rodrigoxavier.quizonline.dto;
 
-public class QuestionDTO {
+public class AnswerDTO {
     private Long id;
     private String text;
-    private String alternatives;
+    private boolean correct;
 
     public Long getId() {
         return id;
@@ -21,11 +21,11 @@ public class QuestionDTO {
         this.text = text;
     }
 
-    public String getAlternatives() {
-        return alternatives;
+    public boolean isCorrect() {
+        return correct;
     }
 
-    public void setAlternatives(String alternatives) {
-        this.alternatives = alternatives;
+    public void setCorrect(boolean correct) {
+        this.correct = correct;
     }
 }

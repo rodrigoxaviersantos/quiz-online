@@ -1,6 +1,7 @@
 package br.com.rodrigoxavier.quizonline.model;
 
 import jakarta.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "quizzes")
@@ -10,6 +11,8 @@ public class Quiz {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    @OneToMany(mappedBy = "quiz", cascade = CascadeType.ALL)
+    private List<Question> questions;
 
     public Quiz() {
     }
@@ -27,7 +30,7 @@ public class Quiz {
         this.id = id;
     }
 
-    public String getname() {
+    public String getName() {
         return name;
     }
 
