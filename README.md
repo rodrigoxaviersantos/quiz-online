@@ -5,19 +5,7 @@
   MJV School - Java
 </p>
 
-<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/rodrigoxaviersantos/quiz-online" />
-<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/rodrigoxaviersantos/quiz-online" />
-<img alt="" src="https://img.shields.io/github/repo-size/rodrigoxaviersantos/quiz-online" />
-<img alt="GitHub Issues" src="https://img.shields.io/github/issues/rodrigoxaviersantos/quiz-online" />
-<img alt="GitHub Closed Issues" src="https://img.shields.io/github/issues-closed/rodrigoxaviersantos/quiz-online" />
-<img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/rodrigoxaviersantos/quiz-online" />
-<img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/rodrigoxaviersantos/quiz-online" />
-<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/rodrigoxaviersantos/quiz-online" />
-<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/rodrigoxaviersantos/quiz-online" />
-<img alt="GitHub Commit Activity (Week)" src="https://img.shields.io/github/commit-activity/w/rodrigoxaviersantos/quiz-online" />
-<img alt="GitHub Commit Activity (Month)" src="https://img.shields.io/github/commit-activity/m/rodrigoxaviersantos/quiz-online" />
-<img alt="GitHub Commit Activity (Year)" src="https://img.shields.io/github/commit-activity/y/rodrigoxaviersantos/quiz-online" />
-<img alt="Github License" src="https://img.shields.io/github/license/rodrigoxaviersantos/quiz-online" />
+<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/rodrigoxaviersantos/quiz-online" /><img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/rodrigoxaviersantos/quiz-online" /><img alt="" src="https://img.shields.io/github/repo-size/rodrigoxaviersantos/quiz-online" /><img alt="GitHub Issues" src="https://img.shields.io/github/issues/rodrigoxaviersantos/quiz-online" /><img alt="GitHub Closed Issues" src="https://img.shields.io/github/issues-closed/rodrigoxaviersantos/quiz-online" /><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/rodrigoxaviersantos/quiz-online" /><img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/rodrigoxaviersantos/quiz-online" /><img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/rodrigoxaviersantos/quiz-online" /><img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/rodrigoxaviersantos/quiz-online" /><img alt="GitHub Commit Activity (Week)" src="https://img.shields.io/github/commit-activity/w/rodrigoxaviersantos/quiz-online" /><img alt="GitHub Commit Activity (Month)" src="https://img.shields.io/github/commit-activity/m/rodrigoxaviersantos/quiz-online" /><img alt="GitHub Commit Activity (Year)" src="https://img.shields.io/github/commit-activity/y/rodrigoxaviersantos/quiz-online" /><img alt="Github License" src="https://img.shields.io/github/license/rodrigoxaviersantos/quiz-online" />
 
 Este é um projeto de QUIZ ONLINE desenvolvido em Java Spring Boot, utilizando MySQL como banco de dados e Swagger para documentação da API.
 
