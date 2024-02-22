@@ -9,6 +9,10 @@
 
 Este é um projeto de QUIZ ONLINE desenvolvido em Java Spring Boot, utilizando MySQL como banco de dados e Swagger para documentação da API.
 
+
+![image](https://github.com/rodrigoxaviersantos/quiz-online/assets/116025593/98984f8c-ec12-4997-beb5-80aa197fd39e)
+
+
 ### Pré-requisitos
 
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
